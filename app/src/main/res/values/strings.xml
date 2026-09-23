@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">吴小见</string>
+
+    <string name="svc_label">吴小见WxJev聊天助手</string>
+    <string name="svc_disguised_desc">读取聊天页面给出回复建议；回填输入框由你点击，绝不自动发送。</string>
+    <string name="svc_disguised_summary">读屏 + 回复建议，发送永远手动。</string>
+</resources>

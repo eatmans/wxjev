@@ -1,0 +1,18 @@
+# 统一行尾, 防跨平台踩坑
+* text=auto
+
+# 脚本类必须 LF
+*.sh text eol=lf
+gradlew text eol=lf
+
+# Windows 批处理用 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制
+*.png binary
+*.jar binary
+*.zip binary
+*.apk binary
+*.jks binary
+*.keystore binary

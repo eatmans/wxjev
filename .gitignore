@@ -1,0 +1,23 @@
+# Build
+.gradle/
+build/
+app/build/
+
+# Machine-specific
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Dev artifacts / reports (not part of the product)
+/_reports/
+
+# 本地工具目录与打包产物（不进源码仓库）
+.zcode/
+/*.apk
+
+# OS
+.DS_Store
+Thumbs.db
