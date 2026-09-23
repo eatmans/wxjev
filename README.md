@@ -4,6 +4,12 @@ Jev聊天助手的 Android 独立实现（无障碍路线）：免 root、免注
 
 App 显示名「吴小见」，包名 `com.eatmans.wxjev`，当前版本 **v0.6.3**（Compose + miuix UI）。伪装链路已通过小米 15 真机可读性验证（PASS-A）；路线与里程碑见 [docs/开发计划书.md](docs/开发计划书.md)。
 
+## 截图
+
+| 控制台 | 聊天页悬浮面板 | 记录详情 |
+|:---:|:---:|:---:|
+| <img src="docs/images/console.jpg" width="280"/> | <img src="docs/images/overlay.jpg" width="280"/> | <img src="docs/images/record.jpg" width="280"/> |
+
 ## 工作原理
 
 1. **采集**：无障碍服务以伪装类名（系统 `SelectToSpeakService` 全名）注册，绕过微信 8.0.52+ 对普通无障碍服务的节点混淆；各 App 适配器解析气泡得到「谁说的/说了什么」，白名单过滤、去重、防抖。
